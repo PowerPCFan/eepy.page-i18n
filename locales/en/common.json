@@ -174,7 +174,7 @@
     },
     "openSource": {
       "title": "Completely open-source",
-      "paragraph1": "Our frontend and backend are both completely open-source and open to contributions. Our backend is written in Python (FastAPI), and our frontend uses SvelteKit.",
+      "paragraph1": "Our frontend and backend are both completely open-source, and we are always open to contributions. Our backend is written in Python (FastAPI), and our frontend uses SvelteKit.",
       "paragraph2": "The authoritative nameservers running our infrastructure are powered by PowerDNS, which is also open-source.",
       "reposLead": "Check out our repositories on GitHub:",
       "frontendRepo": "Our frontend (PowerPCFan/eepy.page-frontend)",
