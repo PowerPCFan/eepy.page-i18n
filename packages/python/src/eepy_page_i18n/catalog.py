@@ -6,7 +6,7 @@ from typing import Any
 
 logger = logging.getLogger("eepy.page")
 
-SUPPORTED_LOCALES = ["en", "fi", "es"]
+SUPPORTED_LOCALES = ["en", "fi", "es", "it"]
 DEFAULT_LOCALE = "en"
 
 DEFAULT_LOCALES_DIR = Path(__file__).resolve().parent / "locales"

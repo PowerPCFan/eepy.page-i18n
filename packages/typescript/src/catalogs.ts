@@ -19,7 +19,14 @@ import domainsFi from "../../../locales/fi/domains.json";
 import errorsFi from "../../../locales/fi/errors.json";
 import supportFi from "../../../locales/fi/support.json";
 
-export const SUPPORTED_LOCALES = ["en", "fi", "es"] as const;
+import authIt from "../../../locales/it/auth.json";
+import commonIt from "../../../locales/it/common.json";
+import dashboardIt from "../../../locales/it/dashboard.json";
+import domainsIt from "../../../locales/it/domains.json";
+import errorsIt from "../../../locales/it/errors.json";
+import supportIt from "../../../locales/it/support.json";
+
+export const SUPPORTED_LOCALES = ["en", "fi", "es", "it"] as const;
 export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
 export const DEFAULT_LOCALE: SupportedLocale = "en";
 
@@ -52,6 +59,16 @@ export const resources = {
             domains: domainsFi,
             errors: errorsFi,
             support: supportFi,
+        },
+    },
+    it: {
+        translation: {
+            auth: authIt,
+            common: commonIt,
+            dashboard: dashboardIt,
+            domains: domainsIt,
+            errors: errorsIt,
+            support: supportIt,
         },
     },
 } as const;
