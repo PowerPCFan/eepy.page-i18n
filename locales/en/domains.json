@@ -1,0 +1,38 @@
+{
+  "types": {
+    "A": "A Record (IPv4)",
+    "AAAA": "AAAA Record (IPv6)",
+    "CNAME": "CNAME Record (Alias)",
+    "TXT": "TXT Record (Verification/Text)"
+  },
+  "fields": {
+    "subdomain": "Subdomain",
+    "target": "Target",
+    "targetPlaceholderA": "192.0.2.1",
+    "targetPlaceholderAaaa": "2001:db8::1",
+    "targetPlaceholderCname": "example.github.io",
+    "targetPlaceholderTxt": "v=spf1 ...",
+    "domainExtension": "Domain extension"
+  },
+  "validation": {
+    "emptyName": "Subdomain name cannot be empty.",
+    "invalidName": "Subdomain name must be alphanumeric and between 1 and 63 characters.",
+    "invalidIpv4": "Enter a valid IPv4 address (e.g. 192.0.2.1).",
+    "invalidIpv6": "Enter a valid IPv6 address (e.g. 2001:db8::1).",
+    "invalidCname": "Enter a valid hostname for CNAME target (e.g. username.github.io).",
+    "emptyTarget": "Target value cannot be empty.",
+    "invalidTxt": "TXT record value is invalid."
+  },
+  "manage": {
+    "title": "Domain details: {domain}",
+    "status": "Status",
+    "active": "Active",
+    "pending": "Pending",
+    "blocked": "Blocked",
+    "dnsConfig": "DNS Configuration"
+  },
+  "warning": {
+    "banner": "A warning has been issued for this domain. Please review the abuse report guidelines.",
+    "actionRequired": "Action required"
+  }
+}

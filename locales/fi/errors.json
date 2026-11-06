@@ -1,0 +1,35 @@
+{
+  "domains": {
+    "NOT_FOUND": "Verkkotunnusta {domain} ei ole olemassa.",
+    "ALREADY_EXISTS": "Verkkotunnus {domain} on jo rekisteröity.",
+    "INVALID_NAME": "Verkkotunnuksen nimi {domain} on virheellinen.",
+    "LIMIT_REACHED": "Olet saavuttanut verkkotunnusrajasi: {limit, plural, one {1 verkkotunnus} other {# verkkotunnusta}}.",
+    "RESERVED": "Verkkotunnus {domain} on varattu.",
+    "FAILED_DELETE": "Verkkotunnuksen {domain} poistaminen epäonnistui.",
+    "FAILED_UPDATE": "Verkkotunnuksen {domain} päivittäminen epäonnistui."
+  },
+  "auth": {
+    "UNAUTHORIZED": "Ei käyttöoikeutta. Tarkista kirjautumistietosi.",
+    "ACCOUNT_DISABLED": "Tili on poistettu käytöstä. Ota yhteyttä osoitteeseen support@eepy.page.",
+    "INVALID_CREDENTIALS": "Käyttäjätunnus ja salasana eivät täsmää.",
+    "USER_NOT_FOUND": "Käyttäjää ei löydy.",
+    "MFA_REQUIRED": "Kaksivaiheisen tunnistautumisen koodi vaaditaan.",
+    "INVALID_MFA": "Virheellinen kaksivaiheisen tunnistautumisen koodi.",
+    "INVALID_CAPTCHA": "Virheellinen captcha. Yritä uudelleen.",
+    "RATE_LIMITED": "Liikaa pyyntöjä. Odota hetki ja yritä uudelleen.",
+    "VERIFICATION_REQUIRED": "Vahvista tilisi. Sinun olisi pitänyt saada sähköposti vahvistuslinkillä.",
+    "INVALID_SESSION": "Istunto on vanhentunut tai virheellinen. Kirjaudu sisään uudelleen.",
+    "INVALID_TOKEN": "Virheellinen tai vanhentunut tunniste.",
+    "CODE_EXPIRED": "Tämä vahvistuskoodi on vanhentunut.",
+    "CODE_INVALID": "Annettu koodi on virheellinen."
+  },
+  "network": {
+    "UNEXPECTED": "Odottamaton virhe tapahtui. Tilakoodi: {status}",
+    "SERVER_ERROR": "Sisäinen palvelinvirhe. Yritä myöhemmin uudelleen.",
+    "FAILED_TO_FETCH": "Yhteyden muodostaminen palvelimeen epäonnistui. Tarkista verkkoyhteytesi."
+  },
+  "general": {
+    "unhandledTitle": "Käsittelemätön virhe tapahtui.",
+    "contactSupport": "Ota yhteyttä tukeen, jos virhe toistuu."
+  }
+}

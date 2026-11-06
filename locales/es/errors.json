@@ -1,0 +1,35 @@
+{
+  "domains": {
+    "NOT_FOUND": "El dominio {domain} no existe.",
+    "ALREADY_EXISTS": "El dominio {domain} ya está registrado.",
+    "INVALID_NAME": "El nombre de dominio {domain} no es válido.",
+    "LIMIT_REACHED": "Has alcanzado tu límite de dominios de {limit, plural, one {1 dominio} other {# dominios}}.",
+    "RESERVED": "El dominio {domain} está reservado.",
+    "FAILED_DELETE": "Error al eliminar el dominio {domain}.",
+    "FAILED_UPDATE": "Error al actualizar el dominio {domain}."
+  },
+  "auth": {
+    "UNAUTHORIZED": "No autorizado. Por favor, verifica tus credenciales.",
+    "ACCOUNT_DISABLED": "La cuenta está deshabilitada. Por favor, contacta a support@eepy.page.",
+    "INVALID_CREDENTIALS": "El nombre de usuario y la contraseña no coinciden.",
+    "USER_NOT_FOUND": "Usuario no encontrado.",
+    "MFA_REQUIRED": "Se requiere el código de autenticación en dos pasos.",
+    "INVALID_MFA": "Código de autenticación en dos pasos no válido.",
+    "INVALID_CAPTCHA": "Captcha no válido. Por favor, inténtalo de nuevo.",
+    "RATE_LIMITED": "Demasiadas solicitudes. Por favor, espera un momento e inténtalo de nuevo.",
+    "VERIFICATION_REQUIRED": "Por favor, verifica tu cuenta. Deberías haber recibido un correo electrónico con un enlace de verificación.",
+    "INVALID_SESSION": "La sesión ha expirado o no es válida. Por favor, inicia sesión de nuevo.",
+    "INVALID_TOKEN": "Token no válido o expirado.",
+    "CODE_EXPIRED": "Este código de verificación ha expirado.",
+    "CODE_INVALID": "Se ha proporcionado un código no válido."
+  },
+  "network": {
+    "UNEXPECTED": "Ocurrió un error inesperado. Código de estado: {status}",
+    "SERVER_ERROR": "Error interno del servidor. Por favor, inténtalo de nuevo más tarde.",
+    "FAILED_TO_FETCH": "Error al comunicar con el servidor. Por favor, comprueba tu conexión."
+  },
+  "general": {
+    "unhandledTitle": "Ocurrió un error no controlado.",
+    "contactSupport": "Por favor, contacta con soporte si este error persiste."
+  }
+}

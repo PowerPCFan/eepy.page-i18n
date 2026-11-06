@@ -1,0 +1,38 @@
+{
+  "types": {
+    "A": "A-tietue (IPv4)",
+    "AAAA": "AAAA-tietue (IPv6)",
+    "CNAME": "CNAME-tietue (Alias)",
+    "TXT": "TXT-tietue (Vahvistus/Teksti)"
+  },
+  "fields": {
+    "subdomain": "Aliverkkotunnus",
+    "target": "Kohde",
+    "targetPlaceholderA": "192.0.2.1",
+    "targetPlaceholderAaaa": "2001:db8::1",
+    "targetPlaceholderCname": "esimerkki.github.io",
+    "targetPlaceholderTxt": "v=spf1 ...",
+    "domainExtension": "Verkkotunnuksen pääte"
+  },
+  "validation": {
+    "emptyName": "Aliverkkotunnuksen nimi ei voi olla tyhjä.",
+    "invalidName": "Aliverkkotunnuksen nimen on oltava aakkosnumeerinen ja 1–63 merkkiä pitkä.",
+    "invalidIpv4": "Anna kelvollinen IPv4-osoite (esim. 192.0.2.1).",
+    "invalidIpv6": "Anna kelvollinen IPv6-osoite (esim. 2001:db8::1).",
+    "invalidCname": "Anna kelvollinen isäntänimi CNAME-kohteelle (esim. kayttaja.github.io).",
+    "emptyTarget": "Kohdearvo ei voi olla tyhjä.",
+    "invalidTxt": "TXT-tietueen arvo on virheellinen."
+  },
+  "manage": {
+    "title": "Verkkotunnuksen tiedot: {domain}",
+    "status": "Tila",
+    "active": "Aktiivinen",
+    "pending": "Odottaa",
+    "blocked": "Estetty",
+    "dnsConfig": "DNS-määritykset"
+  },
+  "warning": {
+    "banner": "Tälle verkkotunnukselle on annettu varoitus. Tutustu väärinkäyttöilmoitusten ohjeisiin.",
+    "actionRequired": "Toimenpiteitä vaaditaan"
+  }
+}

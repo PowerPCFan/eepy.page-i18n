@@ -1,0 +1,35 @@
+{
+  "domains": {
+    "NOT_FOUND": "The domain {domain} does not exist.",
+    "ALREADY_EXISTS": "The domain {domain} is already registered.",
+    "INVALID_NAME": "The domain name {domain} is invalid.",
+    "LIMIT_REACHED": "You have reached your domain limit of {limit, plural, one {1 domain} other {# domains}}.",
+    "RESERVED": "The domain {domain} is reserved.",
+    "FAILED_DELETE": "Failed to delete domain {domain}.",
+    "FAILED_UPDATE": "Failed to update domain {domain}."
+  },
+  "auth": {
+    "UNAUTHORIZED": "Unauthorized. Please check your credentials.",
+    "ACCOUNT_DISABLED": "Account is disabled. Please contact support@eepy.page.",
+    "INVALID_CREDENTIALS": "Username and password do not match.",
+    "USER_NOT_FOUND": "User not found.",
+    "MFA_REQUIRED": "Two-factor authentication code is required.",
+    "INVALID_MFA": "Invalid two-factor authentication code.",
+    "INVALID_CAPTCHA": "Invalid captcha. Please try again.",
+    "RATE_LIMITED": "Too many requests. Please wait a moment and try again.",
+    "VERIFICATION_REQUIRED": "Please verify your account. You should have received an email with a verification link.",
+    "INVALID_SESSION": "Session has expired or is invalid. Please sign in again.",
+    "INVALID_TOKEN": "Invalid or expired token.",
+    "CODE_EXPIRED": "This verification code has expired.",
+    "CODE_INVALID": "Invalid code provided."
+  },
+  "network": {
+    "UNEXPECTED": "An unexpected error occurred. Status code: {status}",
+    "SERVER_ERROR": "Internal server error. Please try again later.",
+    "FAILED_TO_FETCH": "Failed to communicate with the server. Please check your connection."
+  },
+  "general": {
+    "unhandledTitle": "An unhandled error occurred.",
+    "contactSupport": "Please contact support if this error persists."
+  }
+}

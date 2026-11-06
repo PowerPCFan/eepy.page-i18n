@@ -1,0 +1,104 @@
+{
+  "title": "Soporte y Ayuda",
+  "lead": "¿Necesitas ayuda con tu dominio, configuración DNS o cuenta? Ponte en contacto con nuestro equipo.",
+  "reportHub": {
+    "title": "¿Qué te gustaría reportar?",
+    "lead": "Selecciona la categoría que mejor coincida con tu problema para asegurar que se atienda de forma rápida y adecuada.",
+    "abuseTitle": "Abusos y Vulnerabilidades de Seguridad",
+    "abuseDesc": "Reporta phishing, malware, subdominios maliciosos o divulgaciones responsables de vulnerabilidades de seguridad.",
+    "bugsTitle": "Errores de Software y Solicitudes de Funciones",
+    "bugsDesc": "¿Encontraste un fallo en la interfaz, un botón que falta o una función rota? Abre una incidencia en GitHub."
+  },
+  "channels": {
+    "email": "Soporte por correo electrónico",
+    "discord": "Comunidad de Discord",
+    "github": "Incidencias de GitHub"
+  },
+  "diagnostics": {
+    "title": "Diagnósticos del Sistema",
+    "description": "Copia tus detalles técnicos a continuación para incluirlos al informar problemas al equipo de soporte.",
+    "copyButton": "Copiar diagnósticos al portapapeles",
+    "copied": "Diagnósticos copiados al portapapeles",
+    "commit": "Confirmación (Commit)",
+    "server": "Servidor",
+    "resolution": "Resolución",
+    "userAgent": "Agente de usuario",
+    "username": "Usuario",
+    "ipAddress": "Dirección IP"
+  },
+  "report": {
+    "title": "Reportar Abuso o Vulnerabilidad de Seguridad",
+    "lead": "Nos tomamos los abusos y los problemas de seguridad muy en serio. Por favor, informa las infracciones de inmediato.",
+    "abuseType": "Tipo de reporte",
+    "types": {
+      "phishing": "Phishing o Estafa",
+      "malware": "Distribución de malware",
+      "vulnerability": "Vulnerabilidad de seguridad",
+      "other": "Otra infracción"
+    },
+    "domainLabel": "Dominio infractor (si corresponde)",
+    "detailsLabel": "Descripción y evidencia",
+    "detailsPlaceholder": "Proporciona URLs, registros o pasos para reproducir...",
+    "submit": "Enviar reporte",
+    "submitting": "Enviando...",
+    "successTitle": "Reporte enviado",
+    "successDesc": "Gracias por ayudarnos a mantener eepy.page seguro. Investigaremos a la brevedad."
+  },
+  "center": {
+    "title": "Centro de soporte de eepy.page",
+    "faqPrompt": "¿Tienes una pregunta? Consulta primero las preguntas frecuentes",
+    "faqDesc": "La mayoría de las preguntas comunes sobre eepy.page se responden en nuestras preguntas frecuentes. Sin embargo, ¡no dudes en comunicarte si tienes un problema más específico que no esté cubierto!",
+    "browseFaq": "Explorar preguntas frecuentes",
+    "generalTitle": "Consultas Generales",
+    "generalDesc": "¿Tienes preguntas sobre tu cuenta, configuración DNS o dominios personalizados? Comunícate directamente por correo electrónico a {email}.",
+    "emailSupport": "Enviar correo a soporte",
+    "securityTitle": "Seguridad y Abusos",
+    "securityDesc": "¿Necesitas reportar subdominios maliciosos, phishing, malware o vulnerabilidades de seguridad? Usa nuestro Centro de Reportes.",
+    "visitReportHub": "Visitar Centro de Reportes",
+    "bugsTitle": "Errores de Software y Solicitudes de Funciones",
+    "bugsDesc": "¿Quieres reportar fallos en la interfaz, solicitar funciones, sugerir mejoras o informar otros errores? ¡Abre una incidencia de GitHub a través de nuestro Centro de Reportes!",
+    "termsPrivacyTitle": "Términos y Política de Privacidad",
+    "termsPrivacyDesc": "Revisa nuestros términos de servicio y política de privacidad para comprender nuestras reglas y normativas.",
+    "termsButton": "Términos del Servicio",
+    "privacyButton": "Política de Privacidad",
+    "diagTitle": "Información de Diagnóstico",
+    "diagDesc": "Consulta información de diagnóstico sobre tu configuración. ¡Agradeceríamos que incluyas esta información al enviar reportes de errores!",
+    "diagButton": "Ver Diagnósticos"
+  },
+  "abuseVuln": {
+    "title": "Reportar Abusos y Vulnerabilidades",
+    "vulnTitle": "Reportar Vulnerabilidades",
+    "vulnPrompt": "Por favor, proporciona los siguientes detalles al enviar un reporte de vulnerabilidad:",
+    "vulnItems": {
+      "item1": "La función que es vulnerable",
+      "item2": "Una descripción de la vulnerabilidad",
+      "item3": "Comportamiento esperado vs comportamiento real",
+      "item4": "Pasos para reproducir",
+      "item5": "Cómo podría un atacante usar la vulnerabilidad con fines maliciosos"
+    },
+    "vulnButton": "Reportar Vulnerabilidad",
+    "abuseTitle": "Abusos y Phishing",
+    "abusePrompt": "Para reportar subdominios maliciosos, phishing, malware o alojamiento ilícito:",
+    "abuseItems": {
+      "item1": "Subdominio de destino (ej. {example})",
+      "item2": "Evidencia de infracción de políticas o phishing (ej. capturas de pantalla)",
+      "item3": "Cualquier contexto adicional necesario (puede variar según la situación)"
+    },
+    "abuseButton": "Reportar Abuso",
+    "emailSectionTitle": "¿Prefieres enviar un correo manualmente?",
+    "emailSectionDesc": "Por favor, envíanos un reporte a {email}. Asegúrate de seguir las pautas enumeradas anteriormente para garantizar que tu reporte se atienda de forma rápida y adecuada. Copia las plantillas de reporte con los botones de la derecha.",
+    "copyVulnTemplate": "Copiar plantilla de reporte de vulnerabilidad",
+    "copyAbuseTemplate": "Copiar plantilla de reporte de abuso",
+    "templateCopied": "¡{desc} copiado al portapapeles!"
+  },
+  "infra": {
+    "title": "Dominios Oficiales",
+    "description": "Dado que eepy.page permite a los usuarios registrar subdominios arbitrarios, es posible que ocurran abusos. En ese caso, es fundamental saber qué dominios forman parte de nuestra infraestructura oficial. Esta página enumera todos nuestros dominios oficiales para ayudarte a verificar servicios auténticos de eepy.page y evitar phishing o suplantación de identidad. A menos que un dominio esté explícitamente en la lista siguiente, puedes asumir que se trata de contenido generado por usuarios sin ninguna conexión con los servicios oficiales de eepy.page.",
+    "sections": {
+      "web": "Aplicaciones Web",
+      "api": "Backend/APIs",
+      "dns": "Servidores de Nombres Autoritativos",
+      "mail": "Infraestructura de Correo"
+    }
+  }
+}

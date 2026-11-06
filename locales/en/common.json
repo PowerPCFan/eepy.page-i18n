@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "tunneling": "Tunneling",
+    "account": "Account",
+    "report": "Report",
+    "support": "Support",
+    "docs": "Docs",
+    "toggleMenu": "Toggle navigation menu"
+  },
+  "theme": {
+    "label": "Theme",
+    "name": "Theme mode",
+    "light": "Light (beta)",
+    "dark": "Dark",
+    "auto": "Auto"
+  },
+  "footer": {
+    "contact": "Contact",
+    "support": "Support:",
+    "reportText": "Report sites or vulnerabilities (read {link} before reporting):",
+    "readThis": "this",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "faq": "FAQ",
+    "officialDomains": "Official Domains"
+  },
+  "banner": {
+    "serverDifficulties": "We are experiencing server difficulties.",
+    "dismiss": "Dismiss banner"
+  },
+  "kofiThanks": {
+    "title": "Thanks for your order",
+    "lead": "Check the email address you used at checkout. Your redeem link should arrive there shortly!",
+    "instructions": "Before opening the link, please make sure you are signed into eepy.page and that you are using the correct account. If you encounter any issues, don't hesitate to reach us at {emailLink}."
+  },
+  "donate": {
+    "ariaLabel": "Donation appeal",
+    "title": "Support eepy.page",
+    "description": "eepy.page is a free community service. We rely on donations to keep servers running and domains active.",
+    "kofi": "Donate on Ko-fi",
+    "alreadyDonated": "I already donated",
+    "remindLater": "Remind me later"
+  },
+  "cookieConsent": {
+    "buttonLabel": "Cookie settings",
+    "buttonTitle": "Cookie settings",
+    "modal": {
+      "title": "Cookies and privacy settings",
+      "description": "eepy.page uses cookies for login, security, storage, and site behavior. Some cookies are optional, and are used to enhance performance and provide analytics. You can manage your cookie preferences below.",
+      "acceptAllBtn": "Accept all",
+      "acceptNecessaryBtn": "Decline optional",
+      "showPreferencesBtn": "Manage settings"
+    },
+    "preferences": {
+      "title": "Cookie preferences",
+      "acceptAllBtn": "Accept all",
+      "acceptNecessaryBtn": "Decline optional",
+      "savePreferencesBtn": "Save settings",
+      "closeIconLabel": "Close settings",
+      "serviceCounterLabel": "service|services",
+      "necessaryTitle": "Necessary",
+      "necessaryDesc": "Required for the proper operation of eepy.page. These cannot be disabled.",
+      "analyticsTitle": "Analytics",
+      "analyticsDesc": "Analytics gather information such as page views, feature usage, and site performance, allowing us to improve our service where it is needed the most.",
+      "settingsTitle": "Cookie settings",
+      "settingsDesc": "You can change these settings at any time by clicking the cookie icon in the bottom left corner of the page.",
+      "headers": {
+        "name": "Name",
+        "domain": "Provider",
+        "description": "Purpose"
+      },
+      "cookies": {
+        "eepyName": "eepy.page required cookies/storage",
+        "eepyDesc": "Authentication, state (login), abuse-prevention tokens, setting storage (cookie consent, theme, dismissed notices/prompts, other site behavior)",
+        "sentryName": "Sentry",
+        "sentryDesc": "Frontend error monitoring/logging, necessary for debugging and service reliability",
+        "gaName": "Google Analytics cookies",
+        "gaDesc": "Measures website usage and statistics as you interact with the site",
+        "speedInsightsName": "Vercel Speed Insights",
+        "speedInsightsDesc": "Measures performance of the frontend site"
+      }
+    }
+  },
+  "passwordStrength": {
+    "sentences": {
+      "tooWeak": "Your password is too weak.",
+      "fair": "Good start, can be stronger.",
+      "strong": "Strong password.",
+      "veryStrong": "Very secure password!",
+      "unknown": "Uh-oh, something went wrong."
+    },
+    "descriptors": {
+      "veryWeak": "Very weak",
+      "weak": "Weak",
+      "fair": "Fair",
+      "strong": "Strong",
+      "veryStrong": "Very strong",
+      "unknown": "Unknown"
+    }
+  },
+  "actions": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "copy": "Copy",
+    "copied": "Copied",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "dismiss": "Dismiss",
+    "reload": "Reload page",
+    "goHome": "Go to home",
+    "done": "Done"
+  },
+  "landing": {
+    "hero": {
+      "freeSubdomains": "Free subdomains,",
+      "madeSimple": "made simple",
+      "tagline": "A modern, free subdomain service for everyone—whether you're a developer, hobbyist, or somewhere in between.",
+      "signUp": "Sign up now",
+      "dashboard": "Go to the dashboard"
+    },
+    "features": {
+      "free": "100% free",
+      "modernUi": "Modern UI",
+      "userFriendly": "User-friendly"
+    },
+    "claim": {
+      "title": "Claim a piece of the internet",
+      "desc": "Let's start from the basics.",
+      "descHighlight": "Try out a domain you'd like to own!",
+      "placeholderSuffix": ".eepy.page",
+      "checking": "Checking availability...",
+      "available": "The domain {domain} is available!",
+      "claimBtn": "Claim domain now",
+      "taken": "Unfortunately, {domain} is already taken or invalid.",
+      "tryAnother": "Try another subdomain!"
+    },
+    "alwaysFree": {
+      "title": "Always free",
+      "paragraph1": "eepy.page will always be completely free for anyone to use.",
+      "paragraph2": "Our goal is to provide a reliable, convenient service to anyone, which means that regardless of whether you own a domain or not, you are more than welcome to use our service!"
+    },
+    "servicesSupport": {
+      "title": "Support for many services",
+      "lead": "Since you have full control over DNS records, most services that simply require a domain are supported! eepy.page supports:",
+      "ghPages": "GitHub Pages sites",
+      "codeberg": "Codeberg Pages sites",
+      "neocities": "Neocities sites (requires Supporter tier)",
+      "nekoweb": "Nekoweb sites (requires Cute kitty tier)",
+      "andMore": "...and more! Services that only require a standard DNS record and a subdomain-scoped TXT record will work.",
+      "socialsLead": "Additionally, you can add your eepy.page domain to your socials:",
+      "discord": "Discord (displayed as a \"Connection\" on your profile)",
+      "bluesky": "Bluesky (can be used as a custom handle, e.g. @example.eepy.page instead of @example.bsky.social)",
+      "twitter": "Twitter/X (added as your \"Website\" on your profile)"
+    },
+    "management": {
+      "title": "Independent domain management",
+      "paragraph1": "You can register, delete, and modify domains straight from our dashboard, designed to be convenient and user-friendly.",
+      "paragraph2": "There is no need to use a convoluted CLI or a request form, and you don't have to wait for any domain verification.",
+      "paragraph3": "Subdomain registrations are seamlessly added to our database and DNS servers the second you register them."
+    },
+    "tunneling": {
+      "title": "Robust tunneling",
+      "paragraph1": "No port forwarding? No public IP? Fear not, eepy.page provides a seamless tunneling experience, allowing you to forward your local services to the internet!",
+      "paragraph2": "Our tunneling service is powered by Serveo. Simply visit our simple dashboard for easy instructions on attaching your local services to an eepy.page subdomain."
+    },
+    "openSource": {
+      "title": "Completely open-source",
+      "paragraph1": "Our frontend and backend are both completely open-source and open to contributions. Our backend is written in Python (FastAPI), and our frontend uses SvelteKit.",
+      "paragraph2": "The authoritative nameservers running our infrastructure are powered by PowerDNS, which is also open-source.",
+      "reposLead": "Check out our repositories on GitHub:",
+      "frontendRepo": "Our frontend (PowerPCFan/eepy.page-frontend)",
+      "backendRepo": "Our backend (PowerPCFan/eepy.page-backend)"
+    }
+  }
+}

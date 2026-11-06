@@ -1,0 +1,104 @@
+{
+  "title": "Support & Help",
+  "lead": "Need help with your domain, DNS setup, or account? Get in touch with our team.",
+  "reportHub": {
+    "title": "What would you like to report?",
+    "lead": "Select the category that best matches your issue to ensure it gets handled quickly and properly.",
+    "abuseTitle": "Abuse & Security Vulnerabilities",
+    "abuseDesc": "Report phishing, malware, malicious subdomains, or responsible security vulnerability disclosures.",
+    "bugsTitle": "Software Bugs & Feature Requests",
+    "bugsDesc": "Found a UI glitch, missing button, or broken feature? Open an issue on GitHub."
+  },
+  "channels": {
+    "email": "Email Support",
+    "discord": "Community Discord",
+    "github": "GitHub Issues"
+  },
+  "diagnostics": {
+    "title": "System Diagnostics",
+    "description": "Copy your technical details below to include when reporting issues to support.",
+    "copyButton": "Copy diagnostics to clipboard",
+    "copied": "Diagnostics copied to clipboard",
+    "commit": "Commit",
+    "server": "Server",
+    "resolution": "Resolution",
+    "userAgent": "User Agent",
+    "username": "Username",
+    "ipAddress": "IP Address"
+  },
+  "report": {
+    "title": "Report Abuse or Security Vulnerability",
+    "lead": "We take abuse and security issues seriously. Please report violations promptly.",
+    "abuseType": "Type of report",
+    "types": {
+      "phishing": "Phishing or Scam",
+      "malware": "Malware distribution",
+      "vulnerability": "Security vulnerability",
+      "other": "Other violation"
+    },
+    "domainLabel": "Offending domain (if applicable)",
+    "detailsLabel": "Description & evidence",
+    "detailsPlaceholder": "Provide URLs, logs, or steps to reproduce...",
+    "submit": "Submit report",
+    "submitting": "Submitting...",
+    "successTitle": "Report submitted",
+    "successDesc": "Thank you for helping keep eepy.page safe. We will investigate promptly."
+  },
+  "center": {
+    "title": "eepy.page support center",
+    "faqPrompt": "Have a question? Check the FAQ first",
+    "faqDesc": "Most common questions about eepy.page are answered in our FAQ. However, don't be afraid to reach out if you have a more specific issue that's not covered!",
+    "browseFaq": "Browse FAQ",
+    "generalTitle": "General Inquiries",
+    "generalDesc": "Have questions regarding your account, DNS setup, or custom domains? Reach out directly via email at {email}.",
+    "emailSupport": "Email Support",
+    "securityTitle": "Security & Abuse",
+    "securityDesc": "Need to report any malicious subdomains, phishing, malware, or security vulnerabilities? Use our Report Hub.",
+    "visitReportHub": "Visit Report Hub",
+    "bugsTitle": "Software Bugs & Feature Requests",
+    "bugsDesc": "Want to report UI glitches, request features, suggest improvements, or report other bugs? Open a GitHub issue via our Report Hub!",
+    "termsPrivacyTitle": "Terms & Privacy Policy",
+    "termsPrivacyDesc": "Review our terms of service and privacy policy to understand our rules and policies.",
+    "termsButton": "Terms of Service",
+    "privacyButton": "Privacy Policy",
+    "diagTitle": "Diagnostic Info",
+    "diagDesc": "View diagnostic information about your setup. We would appreciate if you include this information when submitting bug reports!",
+    "diagButton": "View Diagnostics"
+  },
+  "abuseVuln": {
+    "title": "Report Abuse & Vulnerabilities",
+    "vulnTitle": "Report Vulnerabilities",
+    "vulnPrompt": "Please provide the following details when submitting a vulnerability report:",
+    "vulnItems": {
+      "item1": "The feature that's vulnerable",
+      "item2": "A description of the vulnerability",
+      "item3": "Expected vs actual behavior",
+      "item4": "Reproduction steps",
+      "item5": "How an attacker could use the vulnerability"
+    },
+    "vulnButton": "Report Vulnerability",
+    "abuseTitle": "Abuse & Phishing",
+    "abusePrompt": "To report malicious subdomains, phishing, malware, or illicit hosting:",
+    "abuseItems": {
+      "item1": "Target subdomain (e.g. {example})",
+      "item2": "Evidence of policy violation or phishing (e.g. screenshots)",
+      "item3": "Any additional context necessary (this may vary depending on the situation)"
+    },
+    "abuseButton": "Report Abuse",
+    "emailSectionTitle": "Prefer sending an email manually?",
+    "emailSectionDesc": "Please send us a report at {email}. Make sure to follow the guidelines listed above to ensure your report can be handled quickly and properly. Copy the report templates using the buttons to the right.",
+    "copyVulnTemplate": "Copy Vulnerability Report Template",
+    "copyAbuseTemplate": "Copy Abuse Report Template",
+    "templateCopied": "{desc} copied to clipboard!"
+  },
+  "infra": {
+    "title": "Official Domains",
+    "description": "Because eepy.page allows users to register arbitrary subdomains, it is possible for abuse to occur. In the case that this happens, it's important to know which domains are part of our official infrastructure. This page lists all of our official domains to help you verify genuine eepy.page services and avoid phishing or impersonation. Unless a domain is explicitly listed below, you can assume that it is user-generated content that has zero connection to official eepy.page services.",
+    "sections": {
+      "web": "Web Applications",
+      "api": "Backend/APIs",
+      "dns": "Authoritative Nameservers",
+      "mail": "Email Infrastructure"
+    }
+  }
+}

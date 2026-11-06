@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eepy-page-i18n"
+version = "0.1.0"
+description = "i18n runtime and translation files for eepy.page"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "PowerPCFan" }
+]
+dependencies = [
+    "icu4py==1.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+eepy_page_i18n = [
+    "py.typed",
+    "locales/**/*.json",
+    "locales/*.json",
+]

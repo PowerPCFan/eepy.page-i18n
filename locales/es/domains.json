@@ -1,0 +1,38 @@
+{
+  "types": {
+    "A": "Registro A (IPv4)",
+    "AAAA": "Registro AAAA (IPv6)",
+    "CNAME": "Registro CNAME (Alias)",
+    "TXT": "Registro TXT (Verificación/Texto)"
+  },
+  "fields": {
+    "subdomain": "Subdominio",
+    "target": "Destino",
+    "targetPlaceholderA": "192.0.2.1",
+    "targetPlaceholderAaaa": "2001:db8::1",
+    "targetPlaceholderCname": "ejemplo.github.io",
+    "targetPlaceholderTxt": "v=spf1 ...",
+    "domainExtension": "Extensión de dominio"
+  },
+  "validation": {
+    "emptyName": "El nombre del subdominio no puede estar vacío.",
+    "invalidName": "El nombre del subdominio debe ser alfanumérico y tener entre 1 y 63 caracteres.",
+    "invalidIpv4": "Introduce una dirección IPv4 válida (ej. 192.0.2.1).",
+    "invalidIpv6": "Introduce una dirección IPv6 válida (ej. 2001:db8::1).",
+    "invalidCname": "Introduce un nombre de host válido para el destino CNAME (ej. usuario.github.io).",
+    "emptyTarget": "El valor de destino no puede estar vacío.",
+    "invalidTxt": "El valor del registro TXT no es válido."
+  },
+  "manage": {
+    "title": "Detalles del dominio: {domain}",
+    "status": "Estado",
+    "active": "Activo",
+    "pending": "Pendiente",
+    "blocked": "Bloqueado",
+    "dnsConfig": "Configuración DNS"
+  },
+  "warning": {
+    "banner": "Se ha emitido una advertencia para este dominio. Por favor, revisa las pautas de reporte de abusos.",
+    "actionRequired": "Acción requerida"
+  }
+}

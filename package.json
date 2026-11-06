@@ -1,0 +1,14 @@
+{
+    "name": "eepy.page-i18n-monorepo",
+    "private": true,
+    "type": "module",
+    "workspaces": [
+        "packages/typescript"
+    ],
+    "scripts": {
+        "build": "npm run --workspace=@powerpcfan/eepy-page-i18n build",
+        "check": "node scripts/validate-catalogs.mjs",
+        "publish:frontend": "bash scripts/publish-frontend.sh",
+        "publish:backend": "bash scripts/publish-backend.sh"
+    }
+}
