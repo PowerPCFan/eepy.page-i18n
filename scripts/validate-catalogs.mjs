@@ -102,7 +102,7 @@ if (loadedCatalogs[BASE_LOCALE]) {
         const currentNamespaces = Object.keys(loadedCatalogs[locale]).sort();
         for (const ns of baseNamespaces) {
             if (!currentNamespaces.includes(ns)) {
-                logError(`[${locale}] Missing namespace file: "${ns}.json"`);
+                logWarn(`[${locale}] Missing namespace file: "${ns}.json" (will fall back to "${BASE_LOCALE}")`);
             }
         }
 
@@ -116,10 +116,14 @@ if (loadedCatalogs[BASE_LOCALE]) {
             const baseKeySet = new Set(baseKeys);
             const targetKeySet = new Set(targetKeys);
 
+            let missingCount = 0;
             for (const key of baseKeys) {
                 if (!targetKeySet.has(key)) {
-                    logError(`[${locale}] Missing translation key: "${key}"`);
+                    missingCount++;
                 }
+            }
+            if (missingCount > 0) {
+                logWarn(`[${locale}] "${ns}.json": ${missingCount} missing key(s) (will fall back to "${BASE_LOCALE}")`);
             }
 
             for (const key of targetKeys) {

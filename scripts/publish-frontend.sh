@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 TS_PKG_DIR="$REPO_ROOT/packages/typescript"
 
-BUMP=""
+BUMP="patch"
 OTP=""
 
 while [[ $# -gt 0 ]]; do
@@ -14,13 +14,17 @@ while [[ $# -gt 0 ]]; do
             BUMP="$2"
             shift 2
             ;;
+        --no-bump)
+            BUMP=""
+            shift
+            ;;
         --otp)
             OTP="$2"
             shift 2
             ;;
         *)
             echo "Unknown option: $1" >&2
-            echo "Usage: $0 [--bump patch|minor|major] [--otp <code>]" >&2
+            echo "Usage: $0 [--bump patch|minor|major] [--no-bump] [--otp <code>]" >&2
             exit 1
             ;;
     esac
@@ -50,8 +54,10 @@ fi
 CURRENT_VERSION=$(node -p "require('./package.json').version")
 echo "Target version: $CURRENT_VERSION"
 
+echo "Cleaning old build artifacts..."
+rm -rf dist/ *.tgz
+
 echo "Building TypeScript package..."
-rm -rf dist/
 npm run build
 
 echo "Publishing version $CURRENT_VERSION to npm..."

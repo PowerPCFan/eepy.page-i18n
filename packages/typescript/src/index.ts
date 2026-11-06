@@ -35,7 +35,7 @@ rootI18n.use(ICU).init({
     },
     returnEmptyString: false,
     missingKeyHandler: (lng, ns, key) => {
-        // @ts-expect-error
+        // @ts-ignore
         if (typeof process !== "undefined" && (process as any).env?.NODE_ENV === "development") {
             console.warn(`[i18n] Missing translation for key: "${key}" (${lng})`);
         }
@@ -170,7 +170,7 @@ export function t(key: string, values?: TranslationValues, localeOverride?: stri
             }
         }
 
-        // @ts-expect-error
+        // @ts-ignore
         if (typeof process !== "undefined" && (process as any).env?.NODE_ENV === "development") {
             return `[${key}]`;
         }

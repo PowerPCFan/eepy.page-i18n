@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 PY_PKG_DIR="$REPO_ROOT/packages/python"
 
-BUMP=""
+BUMP="patch"
 REPOSITORY="pypi"
 
 while [[ $# -gt 0 ]]; do
@@ -14,13 +14,17 @@ while [[ $# -gt 0 ]]; do
             BUMP="$2"
             shift 2
             ;;
+        --no-bump)
+            BUMP=""
+            shift
+            ;;
         --repository|-r)
             REPOSITORY="$2"
             shift 2
             ;;
         *)
             echo "Unknown option: $1" >&2
-            echo "Usage: $0 [--bump patch|minor|major] [--repository pypi|testpypi]" >&2
+            echo "Usage: $0 [--bump patch|minor|major] [--no-bump] [--repository pypi|testpypi]" >&2
             exit 1
             ;;
     esac
@@ -105,7 +109,7 @@ with open('pyproject.toml', 'r', encoding='utf-8') as f:
 echo "Target version: $CURRENT_VERSION"
 
 echo "Cleaning previous build artifacts..."
-rm -rf dist/ build/ *.egg-info
+rm -rf dist/ build/ *.egg-info src/*.egg-info
 
 echo "Building wheel and source distribution..."
 "$PY_BIN" -m build
