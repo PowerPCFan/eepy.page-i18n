@@ -98,7 +98,8 @@
       "web": "Web Applications",
       "api": "Backend/APIs",
       "dns": "Authoritative Nameservers",
-      "mail": "Email Infrastructure"
+      "mail": "Email Infrastructure",
+      "other": "Other Domains"
     }
   }
 }
