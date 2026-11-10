@@ -1,74 +1,20 @@
 {
-  "title": "Tuki ja Ohjeet",
-  "lead": "Tarvitsetko apua verkkotunnuksesi, DNS-määritysten tai tilisi kanssa? Ota yhteyttä tiimiimme.",
-  "reportHub": {
-    "title": "Mitä haluaisit ilmoittaa?",
-    "lead": "Valitse ongelmaasi parhaiten kuvaava kategoria, jotta se voidaan käsitellä nopeasti ja asianmukaisesti.",
-    "abuseTitle": "Väärinkäytökset ja Tietoturva-aukot",
-    "abuseDesc": "Ilmoita verkkokalastelusta, haittaohjelmista, haitallisista aliverkkotunnuksista tai vastuullisista tietoturva-aukoista.",
-    "bugsTitle": "Ohjelmistovirheet ja Ominaisuuspyynnöt",
-    "bugsDesc": "Löysitkö käyttöliittymävirheen, puuttuvan painikkeen tai rikkinäisen ominaisuuden? Avaa ilmoitus GitHubissa."
-  },
-  "channels": {
-    "email": "Sähköpostituki",
-    "discord": "Discord-yhteisö",
-    "github": "GitHub-ilmoitukset"
-  },
-  "diagnostics": {
-    "title": "Järjestelmän Diagnostiikka",
-    "description": "Kopioi tekniset tietosi alta liitettäväksi tukipyyntöösi.",
-    "copyButton": "Kopioi diagnostiikkatiedot leikepöydälle",
-    "copied": "Diagnostiikkatiedot kopioitu leikepöydälle",
-    "commit": "Versio (Commit)",
-    "server": "Palvelin",
-    "resolution": "Resoluutio",
-    "userAgent": "Selain ja käyttöjärjestelmä",
-    "username": "Käyttäjätunnus",
-    "ipAddress": "IP-osoite"
-  },
-  "report": {
-    "title": "Ilmoita Väärinkäytöstä tai Tietoturva-aukosta",
-    "lead": "Suhtaudumme väärinkäytöksiin ja tietoturvaan erittäin vakavasti. Ilmoita rikkomuksista viipymättä.",
-    "abuseType": "Ilmoituksen tyyppi",
-    "types": {
-      "phishing": "Verkkokalastelu tai Huijaus",
-      "malware": "Haittaohjelmien levitys",
-      "vulnerability": "Tietoturva-aukko",
-      "other": "Muu rikkomus"
-    },
-    "domainLabel": "Rikkova verkkotunnus (jos sovellettavissa)",
-    "detailsLabel": "Kuvaus ja todisteet",
-    "detailsPlaceholder": "Anna URL-osoitteet, lokit tai toistovaiheet...",
-    "submit": "Lähetä ilmoitus",
-    "submitting": "Lähetetään...",
-    "successTitle": "Ilmoitus lähetetty",
-    "successDesc": "Kiitos, että autat pitämään eepy.page-palvelun turvallisena. Tutkimme asian viipymättä."
-  },
-  "center": {
-    "title": "eepy.page-tukikeskus",
-    "faqPrompt": "Onko kysyttävää? Tarkista ensin UKK",
-    "faqDesc": "Useimpiin eepy.page-palvelua koskeviin yleisiin kysymyksiin vastataan usein kysytyissä kysymyksissä. Voit kuitenkin ottaa meihin yhteyttä, jos ongelmaasi ei löydy vastausta!",
-    "browseFaq": "Selaa usein kysyttyjä kysymyksiä",
-    "generalTitle": "Yleiset Kyselyt",
-    "generalDesc": "Onko sinulla kysyttävää tilistäsi, DNS-määrityksistä tai mukautetuista verkkotunnuksista? Ota yhteyttä suoraan sähköpostitse osoitteeseen {email}.",
-    "emailSupport": "Lähetä sähköpostia tuelle",
-    "securityTitle": "Tietoturva ja Väärinkäytökset",
-    "securityDesc": "Haluatko ilmoittaa haitallisista aliverkkotunnuksista, verkkokalastelusta, haittaohjelmista tai tietoturva-aukoista? Käytä ilmoituskeskustamme.",
-    "visitReportHub": "Siirry ilmoituskeskukseen",
-    "bugsTitle": "Ohjelmistovirheet ja Ominaisuuspyynnöt",
-    "bugsDesc": "Haluatko ilmoittaa käyttöliittymävirheistä, pyytää ominaisuuksia, ehdottaa parannuksia tai ilmoittaa muista bugeista? Avaa GitHub-ilmoitus ilmoituskeskuksemme kautta!",
-    "termsPrivacyTitle": "Käyttöehdot ja Tietosuojakäytäntö",
-    "termsPrivacyDesc": "Tutustu käyttöehtoihimme ja tietosuojakäytäntöömme ymmärtääksesi sääntömme ja toimintaperiaatteemme.",
-    "termsButton": "Käyttöehdot",
-    "privacyButton": "Tietosuojakäytäntö",
-    "diagTitle": "Diagnostiikkatiedot",
-    "diagDesc": "Tarkastele järjestelmäsi diagnostiikkatietoja. Arvostamme, jos liität nämä tiedot mukaan virheilmoituksiisi!",
-    "diagButton": "Näytä diagnostiikkatiedot"
-  },
   "abuseVuln": {
+    "abuseButton": "Ilmoita väärinkäytöstä",
+    "abuseItems": {
+      "item1": "Kohdealiverkkotunnus (esim. {example})",
+      "item2": "Todisteet sääntörikkomuksesta tai kalastelusta (esim. kuvakaappaukset)",
+      "item3": "Muu tarvittava asiayhteys (voi vaihdella tilanteen mukaan)"
+    },
+    "abusePrompt": "Ilmoittaaksesi haitallisista aliverkkotunnuksista, verkkokalastelusta, haittaohjelmista tai laittomasta sisällöstä:",
+    "abuseTitle": "Väärinkäyttö ja Kalastelu",
+    "copyAbuseTemplate": "Kopioi väärinkäyttöilmoituksen pohja",
+    "copyVulnTemplate": "Kopioi haavoittuvuusilmoituksen pohja",
+    "emailSectionDesc": "Lähetä ilmoitus osoitteeseen {email}. Noudata yllä olevia ohjeita varmistaaksesi, että ilmoituksesi voidaan käsitellä nopeasti ja asianmukaisesti. Kopioi ilmoituspohjat oikealla olevilla painikkeilla.",
+    "emailSectionTitle": "Haluatko lähettää sähköpostin manuaalisesti?",
+    "templateCopied": "{desc} kopioitu leikepöydälle!",
     "title": "Ilmoita Väärinkäytöksistä ja Haavoittuvuuksista",
-    "vulnTitle": "Ilmoita Haavoittuvuuksista",
-    "vulnPrompt": "Anna seuraavat tiedot jättäessäsi haavoittuvuusilmoituksen:",
+    "vulnButton": "Ilmoita haavoittuvuudesta",
     "vulnItems": {
       "item1": "Haavoittuva ominaisuus",
       "item2": "Haavoittuvuuden kuvaus",
@@ -76,29 +22,84 @@
       "item4": "Toistovaiheet",
       "item5": "Miten hyökkääjä voisi käyttää haavoittuvuutta haitallisesti"
     },
-    "vulnButton": "Ilmoita haavoittuvuudesta",
-    "abuseTitle": "Väärinkäyttö ja Kalastelu",
-    "abusePrompt": "Ilmoittaaksesi haitallisista aliverkkotunnuksista, verkkokalastelusta, haittaohjelmista tai laittomasta sisällöstä:",
-    "abuseItems": {
-      "item1": "Kohdealiverkkotunnus (esim. {example})",
-      "item2": "Todisteet sääntörikkomuksesta tai kalastelusta (esim. kuvakaappaukset)",
-      "item3": "Muu tarvittava asiayhteys (voi vaihdella tilanteen mukaan)"
-    },
-    "abuseButton": "Ilmoita väärinkäytöstä",
-    "emailSectionTitle": "Haluatko lähettää sähköpostin manuaalisesti?",
-    "emailSectionDesc": "Lähetä ilmoitus osoitteeseen {email}. Noudata yllä olevia ohjeita varmistaaksesi, että ilmoituksesi voidaan käsitellä nopeasti ja asianmukaisesti. Kopioi ilmoituspohjat oikealla olevilla painikkeilla.",
-    "copyVulnTemplate": "Kopioi haavoittuvuusilmoituksen pohja",
-    "copyAbuseTemplate": "Kopioi väärinkäyttöilmoituksen pohja",
-    "templateCopied": "{desc} kopioitu leikepöydälle!"
+    "vulnPrompt": "Anna seuraavat tiedot jättäessäsi haavoittuvuusilmoituksen:",
+    "vulnTitle": "Ilmoita Haavoittuvuuksista"
+  },
+  "center": {
+    "browseFaq": "Selaa usein kysyttyjä kysymyksiä",
+    "bugsDesc": "Haluatko ilmoittaa käyttöliittymävirheistä, pyytää ominaisuuksia, ehdottaa parannuksia tai ilmoittaa muista bugeista? Avaa GitHub-ilmoitus ilmoituskeskuksemme kautta!",
+    "bugsTitle": "Ohjelmistovirheet ja Ominaisuuspyynnöt",
+    "diagButton": "Näytä diagnostiikkatiedot",
+    "diagDesc": "Tarkastele järjestelmäsi diagnostiikkatietoja. Arvostamme, jos liität nämä tiedot mukaan virheilmoituksiisi!",
+    "diagTitle": "Diagnostiikkatiedot",
+    "emailSupport": "Lähetä sähköpostia tuelle",
+    "faqDesc": "Useimpiin eepy.page-palvelua koskeviin yleisiin kysymyksiin vastataan usein kysytyissä kysymyksissä. Voit kuitenkin ottaa meihin yhteyttä, jos ongelmaasi ei löydy vastausta!",
+    "faqPrompt": "Onko kysyttävää? Tarkista ensin UKK",
+    "generalDesc": "Onko sinulla kysyttävää tilistäsi, DNS-määrityksistä tai mukautetuista verkkotunnuksista? Ota yhteyttä suoraan sähköpostitse osoitteeseen {email}.",
+    "generalTitle": "Yleiset Kyselyt",
+    "privacyButton": "Tietosuojakäytäntö",
+    "securityDesc": "Haluatko ilmoittaa haitallisista aliverkkotunnuksista, verkkokalastelusta, haittaohjelmista tai tietoturva-aukoista? Käytä ilmoituskeskustamme.",
+    "securityTitle": "Tietoturva ja Väärinkäytökset",
+    "termsButton": "Käyttöehdot",
+    "termsPrivacyDesc": "Tutustu käyttöehtoihimme ja tietosuojakäytäntöömme ymmärtääksesi sääntömme ja toimintaperiaatteemme.",
+    "termsPrivacyTitle": "Käyttöehdot ja Tietosuojakäytäntö",
+    "title": "eepy.page-tukikeskus",
+    "visitReportHub": "Siirry ilmoituskeskukseen"
+  },
+  "channels": {
+    "discord": "Discord-yhteisö",
+    "email": "Sähköpostituki",
+    "github": "GitHub-ilmoitukset"
+  },
+  "diagnostics": {
+    "commit": "Versio (Commit)",
+    "copied": "Diagnostiikkatiedot kopioitu leikepöydälle",
+    "copyButton": "Kopioi diagnostiikkatiedot leikepöydälle",
+    "description": "Kopioi tekniset tietosi alta liitettäväksi tukipyyntöösi.",
+    "ipAddress": "IP-osoite",
+    "resolution": "Resoluutio",
+    "server": "Palvelin",
+    "title": "Järjestelmän Diagnostiikka",
+    "userAgent": "Selain ja käyttöjärjestelmä",
+    "username": "Käyttäjätunnus"
   },
   "infra": {
-    "title": "Viralliset Verkkotunnukset",
     "description": "Koska eepy.page sallii käyttäjien rekisteröidä vapaasti aliverkkotunnuksia, väärinkäytöksiä voi tapahtua. Tällaisissa tilanteissa on tärkeää tietää, mitkä verkkotunnukset kuuluvat viralliseen infrastruktuuriimme. Tällä sivulla luetellaan kaikki viralliset verkkotunnuksemme, jotta voit varmistaa aidot eepy.page-palvelut ja välttää kalastelun tai tekeytymisen. Ellei verkkotunnusta ole nimenomaisesti mainittu alla, voit olettaa sen olevan käyttäjien luomaa sisältöä, jolla ei ole yhteyttä virallisiin eepy.page-palveluihin.",
     "sections": {
-      "web": "Verkkosovellukset",
       "api": "Taustajärjestelmä/API:t",
       "dns": "Auktoritatiiviset Nimipalvelimet",
-      "mail": "Sähköpostiinfrastruktuuri"
+      "mail": "Sähköpostiinfrastruktuuri",
+      "other": "Muut verkkotunnukset",
+      "web": "Verkkosovellukset"
+    },
+    "title": "Viralliset Verkkotunnukset"
+  },
+  "lead": "Tarvitsetko apua verkkotunnuksesi, DNS-määritysten tai tilisi kanssa? Ota yhteyttä tiimiimme.",
+  "report": {
+    "abuseType": "Ilmoituksen tyyppi",
+    "detailsLabel": "Kuvaus ja todisteet",
+    "detailsPlaceholder": "Anna URL-osoitteet, lokit tai toistovaiheet...",
+    "domainLabel": "Rikkova verkkotunnus (jos sovellettavissa)",
+    "lead": "Suhtaudumme väärinkäytöksiin ja tietoturvaan erittäin vakavasti. Ilmoita rikkomuksista viipymättä.",
+    "submit": "Lähetä ilmoitus",
+    "submitting": "Lähetetään...",
+    "successDesc": "Kiitos, että autat pitämään eepy.page-palvelun turvallisena. Tutkimme asian viipymättä.",
+    "successTitle": "Ilmoitus lähetetty",
+    "title": "Ilmoita Väärinkäytöstä tai Tietoturva-aukosta",
+    "types": {
+      "malware": "Haittaohjelmien levitys",
+      "other": "Muu rikkomus",
+      "phishing": "Verkkokalastelu tai Huijaus",
+      "vulnerability": "Tietoturva-aukko"
     }
-  }
+  },
+  "reportHub": {
+    "abuseDesc": "Ilmoita verkkokalastelusta, haittaohjelmista, haitallisista aliverkkotunnuksista tai vastuullisista tietoturva-aukoista.",
+    "abuseTitle": "Väärinkäytökset ja Tietoturva-aukot",
+    "bugsDesc": "Löysitkö käyttöliittymävirheen, puuttuvan painikkeen tai rikkinäisen ominaisuuden? Avaa ilmoitus GitHubissa.",
+    "bugsTitle": "Ohjelmistovirheet ja Ominaisuuspyynnöt",
+    "lead": "Valitse ongelmaasi parhaiten kuvaava kategoria, jotta se voidaan käsitellä nopeasti ja asianmukaisesti.",
+    "title": "Mitä haluaisit ilmoittaa?"
+  },
+  "title": "Tuki ja Ohjeet"
 }
