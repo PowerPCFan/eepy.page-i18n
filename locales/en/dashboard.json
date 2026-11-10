@@ -241,8 +241,8 @@
       "yourLink": "Your Referral Link",
       "copyLink": "Copy Link",
       "copiedLink": "Referral link copied to clipboard!",
-      "customCodeTitle": "Choose Your Custom Referral Code",
-      "customCodeHint": "Only letters, numbers, and dashes (3 to 50 characters).",
+      "customCodeTitle": "Choose your custom referral code",
+      "customCodeHint": "Letters, numbers, and dashes allowed (3 to 50 characters)",
       "createButton": "Create Referral Link",
       "codeLabel": "Your referral code",
       "shareHint": "Share this link with friends to earn domain slots:",
@@ -251,7 +251,8 @@
       "codePlaceholder": "Enter code",
       "redeemButton": "Redeem code",
       "codeExists": "Referral code already exists!",
-      "createFailed": "Failed to create a referral code"
+      "createFailed": "Failed to create a referral code",
+      "placeholder": "my-referral-link"
     }
   },
   "api": {

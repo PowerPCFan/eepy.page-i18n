@@ -150,16 +150,11 @@
     },
     "servicesSupport": {
       "title": "Support for many services",
-      "lead": "Since you have full control over DNS records, most services that simply require a domain are supported! eepy.page supports:",
-      "ghPages": "GitHub Pages sites",
-      "codeberg": "Codeberg Pages sites",
-      "neocities": "Neocities sites (requires Supporter tier)",
-      "nekoweb": "Nekoweb sites (requires Cute kitty tier)",
+      "lead": "Since you have full control over DNS records, most services that simply require a domain are supported!",
       "andMore": "...and more! Services that only require a standard DNS record and a subdomain-scoped TXT record will work.",
-      "socialsLead": "Additionally, you can add your eepy.page domain to your socials:",
-      "discord": "Discord (displayed as a \"Connection\" on your profile)",
-      "bluesky": "Bluesky (can be used as a custom handle, e.g. @example.eepy.page instead of @example.bsky.social)",
-      "twitter": "Twitter/X (added as your \"Website\" on your profile)"
+      "graphicTitle": "Service Support",
+      "webHosting": "Web Hosting",
+      "supportedSocials": "Social Media"
     },
     "management": {
       "title": "Independent domain management",

@@ -15,10 +15,12 @@ const isBrowser = typeof window !== "undefined" && typeof document !== "undefine
 
 export function normalizeLocale(localeStr: string | null | undefined): SupportedLocale {
     if (!localeStr) return DEFAULT_LOCALE;
+
     const base = localeStr.toLowerCase().split(/[-_]/)[0];
     if (base && (SUPPORTED_LOCALES as readonly string[]).includes(base)) {
         return base as SupportedLocale;
     }
+
     return DEFAULT_LOCALE;
 }
 
@@ -76,13 +78,12 @@ export function resolveLocale(): SupportedLocale {
 }
 
 const initialLocale = isBrowser ? resolveClientLocale() : DEFAULT_LOCALE;
-export const clientI18n: i18n = isBrowser
-    ? rootI18n.cloneInstance({ lng: initialLocale })
-    : rootI18n;
+export const clientI18n: i18n = isBrowser ? rootI18n.cloneInstance({ lng: initialLocale }) : rootI18n;
 
 function createStore<T>(initialValue: T) {
     let value = initialValue;
     const subscribers = new Set<(val: T) => void>();
+
     return {
         subscribe(fn: (val: T) => void) {
             subscribers.add(fn);
@@ -124,10 +125,13 @@ export function getLocale(): SupportedLocale {
 export function initClientLocale(serverLocale: string) {
     if (isBrowser) {
         const normalized = normalizeLocale(serverLocale);
+
         if (clientI18n.language !== normalized) {
             clientI18n.changeLanguage(normalized);
         }
+
         currentLocale.set(normalized);
+
         try {
             document.documentElement.lang = normalized;
         } catch {}
@@ -136,14 +140,18 @@ export function initClientLocale(serverLocale: string) {
 
 export function setLocale(locale: string, reload: boolean = true) {
     const normalized = normalizeLocale(locale);
+
     if (isBrowser) {
         clientI18n.changeLanguage(normalized);
         Cookies.set("preferred_locale", normalized, { expires: 365, sameSite: "lax" });
+
         try {
             localStorage.setItem("preferred_locale", normalized);
             document.documentElement.lang = normalized;
         } catch {}
+
         currentLocale.set(normalized);
+
         if (reload) {
             window.location.reload();
         }
@@ -152,9 +160,7 @@ export function setLocale(locale: string, reload: boolean = true) {
 
 export function t(key: string, values?: TranslationValues, localeOverride?: string): string {
     const instance = getActiveI18n();
-    const opts: Record<string, any> = {
-        ...values,
-    };
+    const opts: Record<string, any> = {...values};
     if (localeOverride) {
         opts.lng = normalizeLocale(localeOverride);
     }
@@ -163,18 +169,16 @@ export function t(key: string, values?: TranslationValues, localeOverride?: stri
 
     if (translated === undefined || translated === null || translated === key) {
         const activeLang = opts.lng || instance.language;
+
         if (activeLang !== DEFAULT_LOCALE) {
             const fallback = rootI18n.t(key as any, { ...opts, lng: DEFAULT_LOCALE });
+
             if (fallback && fallback !== key) {
                 return fallback;
             }
         }
 
-        // @ts-ignore
-        if (typeof process !== "undefined" && (process as any).env?.NODE_ENV === "development") {
-            return `[${key}]`;
-        }
-        return key.split(".").pop() || key;
+        return `[${key}]`;
     }
 
     return translated;

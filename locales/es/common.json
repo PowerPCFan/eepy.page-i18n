@@ -150,16 +150,8 @@
     },
     "servicesSupport": {
       "title": "Soporte para múltiples servicios",
-      "lead": "Dado que tienes control total sobre los registros DNS, ¡la mayoría de los servicios que solo requieren un dominio son compatibles! eepy.page admite:",
-      "ghPages": "Sitios de GitHub Pages",
-      "codeberg": "Sitios de Codeberg Pages",
-      "neocities": "Sitios de Neocities (requiere nivel Supporter)",
-      "nekoweb": "Sitios de Nekoweb (requiere nivel Cute kitty)",
-      "andMore": "...¡y más! Cualquier servicio que requiera un registro DNS estándar y un registro TXT con ámbito de subdominio funcionará.",
-      "socialsLead": "Además, puedes añadir tu dominio de eepy.page a tus redes sociales:",
-      "discord": "Discord (se muestra como \"Conexión\" en tu perfil)",
-      "bluesky": "Bluesky (puede usarse como identificador personalizado, ej. @ejemplo.eepy.page)",
-      "twitter": "Twitter/X (añadido como tu \"Sitio web\" en tu perfil)"
+      "lead": "Dado que tienes control total sobre los registros DNS, ¡la mayoría de los servicios que solo requieren un dominio son compatibles!",
+      "andMore": "...¡y más! Cualquier servicio que requiera un registro DNS estándar y un registro TXT con ámbito de subdominio funcionará."
     },
     "management": {
       "title": "Gestión independiente de dominios",

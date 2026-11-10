@@ -150,16 +150,8 @@
     },
     "servicesSupport": {
       "title": "Tuki useille eri palveluille",
-      "lead": "Koska hallitset DNS-tietueita täysin, useimmat palvelut, jotka vaativat vain verkkotunnuksen, ovat tuettuja! eepy.page tukee:",
-      "ghPages": "GitHub Pages -sivustot",
-      "codeberg": "Codeberg Pages -sivustot",
-      "neocities": "Neocities-sivustot (vaatii Supporter-tason)",
-      "nekoweb": "Nekoweb-sivustot (vaatii Cute kitty -tason)",
-      "andMore": "...ja paljon muuta! Kaikki palvelut, jotka vaativat vain vakiomuotoisen DNS-tietueen ja aliverkkotunnukselle kohdistetun TXT-tietueen, toimivat.",
-      "socialsLead": "Lisäksi voit lisätä eepy.page-verkkotunnuksesi sosiaaliseen mediaan:",
-      "discord": "Discord (näkyy profiilisi \"Yhteydet\"-kohdassa)",
-      "bluesky": "Bluesky (voidaan käyttää mukautettuna käyttäjänimenä, esim. @esimerkki.eepy.page)",
-      "twitter": "Twitter/X (lisättynä profiilisi \"Verkkosivusto\"-kohtaan)"
+      "lead": "Koska hallitset DNS-tietueita täysin, useimmat palvelut, jotka vaativat vain verkkotunnuksen, ovat tuettuja!",
+      "andMore": "...ja paljon muuta! Kaikki palvelut, jotka vaativat vain vakiomuotoisen DNS-tietueen ja aliverkkotunnukselle kohdistetun TXT-tietueen, toimivat."
     },
     "management": {
       "title": "Itsenäinen verkkotunnusten hallinta",
