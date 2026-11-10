@@ -1,176 +1,179 @@
 {
-  "nav": {
-    "home": "Etusivu",
-    "dashboard": "Hallintapaneeli",
-    "tunneling": "Tunnelointi",
-    "account": "Tili",
-    "report": "Ilmoita",
-    "support": "Tuki",
-    "docs": "Dokumentaatio",
-    "toggleMenu": "Avaa tai sulje valikko"
-  },
-  "theme": {
-    "label": "Teema",
-    "name": "Teematila",
-    "light": "Vaalea (beta)",
-    "dark": "Tumma",
-    "auto": "Automaattinen"
-  },
-  "footer": {
-    "contact": "Yhteystiedot",
-    "support": "Tuki:",
-    "reportText": "Ilmoita sivustoista tai tietoturva-aukoista (lue {link} ennen ilmoittamista):",
-    "readThis": "tämä",
-    "legal": "Oikeudelliset tiedot",
-    "privacy": "Tietosuojakäytäntö",
-    "terms": "Käyttöehdot",
-    "faq": "Usein kysytyt kysymykset",
-    "officialDomains": "Viralliset verkkotunnukset"
+  "actions": {
+    "back": "Takaisin",
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "confirm": "Vahvista",
+    "copied": "Kopioitu",
+    "copy": "Kopioi",
+    "delete": "Poista",
+    "deleting": "Poistetaan...",
+    "dismiss": "Hylkää",
+    "done": "Valmis",
+    "goHome": "Siirry etusivulle",
+    "loading": "Ladataan...",
+    "next": "Seuraava",
+    "reload": "Lataa sivu uudelleen",
+    "save": "Tallenna",
+    "saving": "Tallennetaan..."
   },
   "banner": {
-    "serverDifficulties": "Palvelimessamme on tällä hetkellä häiriöitä.",
-    "dismiss": "Sulje ilmoitus"
-  },
-  "kofiThanks": {
-    "title": "Kiitos tilauksestasi",
-    "lead": "Tarkista kassalla käyttämäsi sähköpostiosoite. Lunastuslinkkisi saapuu sinne pian!",
-    "instructions": "Varmista ennen linkin avaamista, että olet kirjautunut sisään eepy.page-palveluun oikealla tilillä. Jos kohtaat ongelmia, ota meihin yhteyttä osoitteessa {emailLink}."
-  },
-  "donate": {
-    "ariaLabel": "Lahjoituspyyntö",
-    "title": "Tue eepy.page-palvelua",
-    "description": "eepy.page on ilmainen yhteisöpalvelu. Luotamme lahjoituksiin pitääksemme palvelimet käynnissä ja verkkotunnukset aktiivisina.",
-    "kofi": "Lahjoita Ko-fissa",
-    "alreadyDonated": "Olen jo lahjoittanut",
-    "remindLater": "Muistuta myöhemmin"
+    "dismiss": "Sulje ilmoitus",
+    "serverDifficulties": "Palvelimessamme on tällä hetkellä häiriöitä."
   },
   "cookieConsent": {
     "buttonLabel": "Evästeasetukset",
     "buttonTitle": "Evästeasetukset",
     "modal": {
-      "title": "Eväste- ja tietosuoja-asetukset",
-      "description": "eepy.page käyttää evästeitä kirjautumiseen, turvallisuuteen, tallennukseen ja sivuston toimintaan. Osa evästeistä on valinnaisia ja niitä käytetään suorituskyvyn parantamiseen ja analytiikkaan. Voit hallita asetuksiasi alla.",
       "acceptAllBtn": "Hyväksy kaikki",
       "acceptNecessaryBtn": "Hylkää valinnaiset",
-      "showPreferencesBtn": "Hallitse asetuksia"
+      "description": "eepy.page käyttää evästeitä kirjautumiseen, turvallisuuteen, tallennukseen ja sivuston toimintaan. Osa evästeistä on valinnaisia ja niitä käytetään suorituskyvyn parantamiseen ja analytiikkaan. Voit hallita asetuksiasi alla.",
+      "showPreferencesBtn": "Hallitse asetuksia",
+      "title": "Eväste- ja tietosuoja-asetukset"
     },
     "preferences": {
-      "title": "Evästeasetukset",
       "acceptAllBtn": "Hyväksy kaikki",
       "acceptNecessaryBtn": "Hylkää valinnaiset",
-      "savePreferencesBtn": "Tallenna asetukset",
-      "closeIconLabel": "Sulje asetukset",
-      "serviceCounterLabel": "palvelu|palvelua",
-      "necessaryTitle": "Välttämättömät",
-      "necessaryDesc": "Tarvitaan eepy.page-palvelun asianmukaiseen toimintaan. Näitä ei voi poistaa käytöstä.",
-      "analyticsTitle": "Analytiikka",
       "analyticsDesc": "Analytiikka kerää tietoja, kuten sivujen katseluita, ominaisuuksien käyttöä ja sivuston suorituskykyä, auttaen meitä parantamaan palvelua.",
-      "settingsTitle": "Evästeasetukset",
-      "settingsDesc": "Voit muuttaa näitä asetuksia milloin tahansa napsauttamalla evästekuvaketta sivun vasemmassa alakulmassa.",
-      "headers": {
-        "name": "Nimi",
-        "domain": "Tarjoaja",
-        "description": "Tarkoitus"
-      },
+      "analyticsTitle": "Analytiikka",
+      "closeIconLabel": "Sulje asetukset",
       "cookies": {
-        "eepyName": "eepy.page-palvelun välttämättömät evästeet ja tallennustiedot",
         "eepyDesc": "Tunnistautuminen, istunnon tila, väärinkäytösten estotunnisteet, asetusten tallennus (evästehyväksyntä, teema, hylätyt ilmoitukset ja muu sivuston toiminta)",
-        "sentryName": "Sentry",
-        "sentryDesc": "Käyttöliittymän virheiden seuranta ja lokit, tarpeen virheenkorjaukseen ja palvelun luotettavuuteen",
-        "gaName": "Google Analytics -evästeet",
+        "eepyName": "eepy.page-palvelun välttämättömät evästeet ja tallennustiedot",
         "gaDesc": "Mittaa verkkosivuston käyttöä ja tilastoja vuorovaikutuksessasi sivuston kanssa",
-        "speedInsightsName": "Vercel Speed Insights",
-        "speedInsightsDesc": "Mittaa käyttöliittymäsivuston suorituskykyä"
-      }
+        "gaName": "Google Analytics -evästeet",
+        "sentryDesc": "Käyttöliittymän virheiden seuranta ja lokit, tarpeen virheenkorjaukseen ja palvelun luotettavuuteen",
+        "sentryName": "Sentry",
+        "speedInsightsDesc": "Mittaa käyttöliittymäsivuston suorituskykyä",
+        "speedInsightsName": "Vercel Speed Insights"
+      },
+      "headers": {
+        "description": "Tarkoitus",
+        "domain": "Tarjoaja",
+        "name": "Nimi"
+      },
+      "necessaryDesc": "Tarvitaan eepy.page-palvelun asianmukaiseen toimintaan. Näitä ei voi poistaa käytöstä.",
+      "necessaryTitle": "Välttämättömät",
+      "savePreferencesBtn": "Tallenna asetukset",
+      "serviceCounterLabel": "palvelu|palvelua",
+      "settingsDesc": "Voit muuttaa näitä asetuksia milloin tahansa napsauttamalla evästekuvaketta sivun vasemmassa alakulmassa.",
+      "settingsTitle": "Evästeasetukset",
+      "title": "Evästeasetukset"
     }
   },
-  "passwordStrength": {
-    "sentences": {
-      "tooWeak": "Salasanasi on liian heikko.",
-      "fair": "Hyvä alku, mutta salasana voi olla vahvempi.",
-      "strong": "Vahva salasana.",
-      "veryStrong": "Erittäin turvallinen salasana!",
-      "unknown": "Hups, jokin meni pieleen."
-    },
-    "descriptors": {
-      "veryWeak": "Erittäin heikko",
-      "weak": "Heikko",
-      "fair": "Kohtalainen",
-      "strong": "Vahva",
-      "veryStrong": "Erittäin vahva",
-      "unknown": "Tuntematon"
-    }
+  "donate": {
+    "alreadyDonated": "Olen jo lahjoittanut",
+    "ariaLabel": "Lahjoituspyyntö",
+    "description": "eepy.page on ilmainen yhteisöpalvelu. Luotamme lahjoituksiin pitääksemme palvelimet käynnissä ja verkkotunnukset aktiivisina.",
+    "kofi": "Lahjoita Ko-fissa",
+    "remindLater": "Muistuta myöhemmin",
+    "title": "Tue eepy.page-palvelua"
   },
-  "actions": {
-    "save": "Tallenna",
-    "saving": "Tallennetaan...",
-    "cancel": "Peruuta",
-    "delete": "Poista",
-    "deleting": "Poistetaan...",
-    "confirm": "Vahvista",
-    "loading": "Ladataan...",
-    "copy": "Kopioi",
-    "copied": "Kopioitu",
-    "back": "Takaisin",
-    "next": "Seuraava",
-    "close": "Sulje",
-    "dismiss": "Hylkää",
-    "reload": "Lataa sivu uudelleen",
-    "goHome": "Siirry etusivulle",
-    "done": "Valmis"
+  "footer": {
+    "contact": "Yhteystiedot",
+    "faq": "Usein kysytyt kysymykset",
+    "legal": "Oikeudelliset tiedot",
+    "officialDomains": "Viralliset verkkotunnukset",
+    "privacy": "Tietosuojakäytäntö",
+    "readThis": "tämä",
+    "reportText": "Ilmoita sivustoista tai tietoturva-aukoista (lue {link} ennen ilmoittamista):",
+    "support": "Tuki:",
+    "terms": "Käyttöehdot"
+  },
+  "kofiThanks": {
+    "instructions": "Varmista ennen linkin avaamista, että olet kirjautunut sisään eepy.page-palveluun oikealla tilillä. Jos kohtaat ongelmia, ota meihin yhteyttä osoitteessa {emailLink}.",
+    "lead": "Tarkista kassalla käyttämäsi sähköpostiosoite. Lunastuslinkkisi saapuu sinne pian!",
+    "title": "Kiitos tilauksestasi"
   },
   "landing": {
-    "hero": {
-      "freeSubdomains": "Ilmaiset aliverkkotunnukset,",
-      "madeSimple": "helposti ja vaivattomasti",
-      "tagline": "Moderni ja ilmainen aliverkkotunnuspalvelu kaikille — olitpa kehittäjä, harrastaja tai kuka tahansa muu.",
-      "signUp": "Rekisteröidy nyt",
-      "dashboard": "Siirry hallintapaneeliin"
+    "alwaysFree": {
+      "paragraph1": "eepy.page on aina täysin ilmainen kaikille.",
+      "paragraph2": "Tavoitteemme on tarjota luotettava ja kätevä palvelu kenelle tahansa, eli omistatpa verkkotunnuksen tai et, olet lämpimästi tervetullut käyttämään palveluamme!",
+      "title": "Aina ilmainen"
+    },
+    "claim": {
+      "available": "Verkkotunnus {domain} on vapaana!",
+      "checking": "Tarkistetaan saatavuutta...",
+      "claimBtn": "Varaa verkkotunnus heti",
+      "desc": "Aloitetaan perusasioista.",
+      "descHighlight": "Kokeile verkkotunnusta, jonka haluaisit omistaa!",
+      "placeholderSuffix": ".eepy.page",
+      "taken": "Valitettavasti {domain} on jo varattu tai virheellinen.",
+      "title": "Varaa oma paikkasi internetissä",
+      "tryAnother": "Kokeile toista aliverkkotunnusta!"
     },
     "features": {
       "free": "100 % ilmainen",
       "modernUi": "Moderni käyttöliittymä",
       "userFriendly": "Käyttäjäystävällinen"
     },
-    "claim": {
-      "title": "Varaa oma paikkasi internetissä",
-      "desc": "Aloitetaan perusasioista.",
-      "descHighlight": "Kokeile verkkotunnusta, jonka haluaisit omistaa!",
-      "placeholderSuffix": ".eepy.page",
-      "checking": "Tarkistetaan saatavuutta...",
-      "available": "Verkkotunnus {domain} on vapaana!",
-      "claimBtn": "Varaa verkkotunnus heti",
-      "taken": "Valitettavasti {domain} on jo varattu tai virheellinen.",
-      "tryAnother": "Kokeile toista aliverkkotunnusta!"
-    },
-    "alwaysFree": {
-      "title": "Aina ilmainen",
-      "paragraph1": "eepy.page on aina täysin ilmainen kaikille.",
-      "paragraph2": "Tavoitteemme on tarjota luotettava ja kätevä palvelu kenelle tahansa, eli omistatpa verkkotunnuksen tai et, olet lämpimästi tervetullut käyttämään palveluamme!"
-    },
-    "servicesSupport": {
-      "title": "Tuki useille eri palveluille",
-      "lead": "Koska hallitset DNS-tietueita täysin, useimmat palvelut, jotka vaativat vain verkkotunnuksen, ovat tuettuja!",
-      "andMore": "...ja paljon muuta! Kaikki palvelut, jotka vaativat vain vakiomuotoisen DNS-tietueen ja aliverkkotunnukselle kohdistetun TXT-tietueen, toimivat."
+    "hero": {
+      "dashboard": "Siirry hallintapaneeliin",
+      "freeSubdomains": "Ilmaiset aliverkkotunnukset,",
+      "madeSimple": "helposti ja vaivattomasti",
+      "signUp": "Rekisteröidy nyt",
+      "tagline": "Moderni ja ilmainen aliverkkotunnuspalvelu kaikille — olitpa kehittäjä, harrastaja tai kuka tahansa muu."
     },
     "management": {
-      "title": "Itsenäinen verkkotunnusten hallinta",
       "paragraph1": "Voit rekisteröidä, poistaa ja muokata verkkotunnuksia suoraan hallintapaneelistamme, joka on suunniteltu helppokäyttöiseksi ja selkeäksi.",
       "paragraph2": "Sinun ei tarvitse käyttää monimutkaista komentoriviä tai pyyntölomaketta, eikä sinun tarvitse odottaa verkkotunnuksen vahvistamista.",
-      "paragraph3": "Aliverkkotunnusten rekisteröinnit lisätään tietokantaamme ja DNS-palvelimiimme heti samalla sekunnilla, kun rekisteröit ne."
-    },
-    "tunneling": {
-      "title": "Luotettava tunnelointi",
-      "paragraph1": "Ei porttiohjausta? Ei julkista IP-osoitetta? Ei hätää, eepy.page tarjoaa saumattoman tunnelointikokemuksen, jonka avulla voit julkaista paikalliset palvelusi internetiin!",
-      "paragraph2": "Tunnelointipalvelumme perustuu Serveo-ratkaisuun. Avaa hallintapaneelimme nähdäksesi helpot ohjeet paikallisten palvelujesi liittämiseen eepy.page-aliverkkotunnukseen."
+      "paragraph3": "Aliverkkotunnusten rekisteröinnit lisätään tietokantaamme ja DNS-palvelimiimme heti samalla sekunnilla, kun rekisteröit ne.",
+      "title": "Itsenäinen verkkotunnusten hallinta"
     },
     "openSource": {
-      "title": "Täysin avointa lähdekoodia",
+      "backendRepo": "Taustajärjestelmämme (PowerPCFan/eepy.page-backend)",
+      "frontendRepo": "Käyttöliittymämme (PowerPCFan/eepy.page-frontend)",
       "paragraph1": "Sekä käyttöliittymämme että taustajärjestelmämme ovat täysin avointa lähdekoodia ja avoimia yhteisön parannuksille. Taustajärjestelmämme on kirjoitettu Pythonilla (FastAPI) ja käyttöliittymämme käyttää SvelteKitiä.",
       "paragraph2": "Infrastruktuuriamme pyörittävät auktoritatiiviset nimipalvelimet toimivat PowerDNS-ohjelmistolla, joka on myös avointa lähdekoodia.",
       "reposLead": "Tutustu GitHub-tietovarastoihimme:",
-      "frontendRepo": "Käyttöliittymämme (PowerPCFan/eepy.page-frontend)",
-      "backendRepo": "Taustajärjestelmämme (PowerPCFan/eepy.page-backend)"
+      "title": "Täysin avointa lähdekoodia"
+    },
+    "servicesSupport": {
+      "andMore": "...ja paljon muuta! Kaikki palvelut, jotka vaativat vain vakiomuotoisen DNS-tietueen ja aliverkkotunnukselle kohdistetun TXT-tietueen, toimivat.",
+      "graphicTitle": "Palvelutuki",
+      "lead": "Koska hallitset DNS-tietueita täysin, useimmat palvelut, jotka vaativat vain verkkotunnuksen, ovat tuettuja!",
+      "supportedSocials": "Sosiaalinen media",
+      "title": "Tuki useille eri palveluille",
+      "webHosting": "Verkkosivujen majoitus"
+    },
+    "tunneling": {
+      "paragraph1": "Ei porttiohjausta? Ei julkista IP-osoitetta? Ei hätää, eepy.page tarjoaa saumattoman tunnelointikokemuksen, jonka avulla voit julkaista paikalliset palvelusi internetiin!",
+      "paragraph2": "Tunnelointipalvelumme perustuu Serveo-ratkaisuun. Avaa hallintapaneelimme nähdäksesi helpot ohjeet paikallisten palvelujesi liittämiseen eepy.page-aliverkkotunnukseen.",
+      "title": "Luotettava tunnelointi"
     }
+  },
+  "nav": {
+    "account": "Tili",
+    "dashboard": "Hallintapaneeli",
+    "docs": "Dokumentaatio",
+    "home": "Etusivu",
+    "report": "Ilmoita",
+    "support": "Tuki",
+    "toggleMenu": "Avaa tai sulje valikko",
+    "tunneling": "Tunnelointi"
+  },
+  "passwordStrength": {
+    "descriptors": {
+      "fair": "Kohtalainen",
+      "strong": "Vahva",
+      "unknown": "Tuntematon",
+      "veryStrong": "Erittäin vahva",
+      "veryWeak": "Erittäin heikko",
+      "weak": "Heikko"
+    },
+    "sentences": {
+      "fair": "Hyvä alku, mutta salasana voi olla vahvempi.",
+      "strong": "Vahva salasana.",
+      "tooWeak": "Salasanasi on liian heikko.",
+      "unknown": "Hups, jokin meni pieleen.",
+      "veryStrong": "Erittäin turvallinen salasana!"
+    }
+  },
+  "theme": {
+    "auto": "Automaattinen",
+    "dark": "Tumma",
+    "label": "Teema",
+    "light": "Vaalea (beta)",
+    "name": "Teematila"
   }
 }
