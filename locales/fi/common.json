@@ -89,7 +89,10 @@
     "alwaysFree": {
       "paragraph1": "eepy.page on aina täysin ilmainen kaikille.",
       "paragraph2": "Tavoitteemme on tarjota luotettava ja kätevä palvelu kenelle tahansa, eli omistatpa verkkotunnuksen tai et, olet lämpimästi tervetullut käyttämään palveluamme!",
-      "title": "Aina ilmainen"
+      "title": "Aina ilmainen",
+      "graphicText1": "eepy.page on 100 % ilmainen!",
+      "graphicText2": "Joten miksi et kokeilisi sitä?",
+      "graphicText3": "Tiedämme, että pidät siitä!"
     },
     "claim": {
       "available": "Verkkotunnus {domain} on vapaana!",

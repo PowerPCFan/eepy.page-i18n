@@ -146,7 +146,10 @@
     "alwaysFree": {
       "title": "Always free",
       "paragraph1": "eepy.page will always be completely free for anyone to use.",
-      "paragraph2": "Our goal is to provide a reliable, convenient service to anyone, which means that regardless of whether you own a domain or not, you are more than welcome to use our service!"
+      "paragraph2": "Our goal is to provide a reliable, convenient service to anyone, which means that regardless of whether you own a domain or not, you are more than welcome to use our service!",
+      "graphicText1": "eepy.page is 100% free!",
+      "graphicText2": "So why not give it a try?",
+      "graphicText3": "We know you'll like it!"
     },
     "servicesSupport": {
       "title": "Support for many services",
