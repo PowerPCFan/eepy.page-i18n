@@ -1,176 +1,182 @@
 {
-  "nav": {
-    "home": "Inicio",
-    "dashboard": "Panel",
-    "tunneling": "Túneles",
-    "account": "Cuenta",
-    "report": "Reportar",
-    "support": "Soporte",
-    "docs": "Documentación",
-    "toggleMenu": "Alternar menú de navegación"
-  },
-  "theme": {
-    "label": "Tema",
-    "name": "Modo de tema",
-    "light": "Claro (beta)",
-    "dark": "Oscuro",
-    "auto": "Automático"
-  },
-  "footer": {
-    "contact": "Contacto",
-    "support": "Soporte:",
-    "reportText": "Reportar sitios o vulnerabilidades (lee {link} antes de reportar):",
-    "readThis": "esto",
-    "legal": "Legal",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos del Servicio",
-    "faq": "Preguntas Frecuentes",
-    "officialDomains": "Dominios Oficiales"
+  "actions": {
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "copied": "Copiado",
+    "copy": "Copiar",
+    "delete": "Eliminar",
+    "deleting": "Eliminando...",
+    "dismiss": "Descartar",
+    "done": "Hecho",
+    "goHome": "Ir al inicio",
+    "loading": "Cargando...",
+    "next": "Siguiente",
+    "reload": "Recargar página",
+    "save": "Guardar",
+    "saving": "Guardando..."
   },
   "banner": {
-    "serverDifficulties": "Estamos experimentando dificultades con el servidor.",
-    "dismiss": "Cerrar aviso"
-  },
-  "kofiThanks": {
-    "title": "Gracias por tu pedido",
-    "lead": "Revisa la dirección de correo electrónico que utilizaste al pagar. ¡Tu enlace de canje debería llegar allí en breve!",
-    "instructions": "Antes de abrir el enlace, asegúrate de haber iniciado sesión en eepy.page y de estar usando la cuenta correcta. Si tienes algún problema, no dudes en escribirnos a {emailLink}."
-  },
-  "donate": {
-    "ariaLabel": "Petición de donación",
-    "title": "Apoya a eepy.page",
-    "description": "eepy.page es un servicio comunitario gratuito. Dependemos de las donaciones para mantener los servidores funcionando y los dominios activos.",
-    "kofi": "Donar en Ko-fi",
-    "alreadyDonated": "Ya he donado",
-    "remindLater": "Recordármelo más tarde"
+    "dismiss": "Cerrar aviso",
+    "serverDifficulties": "Estamos experimentando dificultades con el servidor."
   },
   "cookieConsent": {
     "buttonLabel": "Ajustes de cookies",
     "buttonTitle": "Ajustes de cookies",
     "modal": {
-      "title": "Ajustes de cookies y privacidad",
-      "description": "eepy.page utiliza cookies para el inicio de sesión, seguridad, almacenamiento y comportamiento del sitio. Algunas cookies son opcionales y se usan para mejorar el rendimiento y proporcionar análisis. Puedes gestionar tus preferencias a continuación.",
       "acceptAllBtn": "Aceptar todo",
       "acceptNecessaryBtn": "Rechazar opcionales",
-      "showPreferencesBtn": "Gestionar ajustes"
+      "description": "eepy.page utiliza cookies para el inicio de sesión, seguridad, almacenamiento y comportamiento del sitio. Algunas cookies son opcionales y se usan para mejorar el rendimiento y proporcionar análisis. Puedes gestionar tus preferencias a continuación.",
+      "showPreferencesBtn": "Gestionar ajustes",
+      "title": "Ajustes de cookies y privacidad"
     },
     "preferences": {
-      "title": "Preferencias de cookies",
       "acceptAllBtn": "Aceptar todo",
       "acceptNecessaryBtn": "Rechazar opcionales",
-      "savePreferencesBtn": "Guardar ajustes",
-      "closeIconLabel": "Cerrar ajustes",
-      "serviceCounterLabel": "servicio|servicios",
-      "necessaryTitle": "Necesarias",
-      "necessaryDesc": "Requeridas para el correcto funcionamiento de eepy.page. No se pueden desactivar.",
-      "analyticsTitle": "Analítica",
       "analyticsDesc": "La analítica recopila información como visitas a la página, uso de funciones y rendimiento del sitio, lo que nos permite mejorar nuestro servicio donde más se necesita.",
-      "settingsTitle": "Ajustes de cookies",
-      "settingsDesc": "Puedes cambiar estos ajustes en cualquier momento haciendo clic en el icono de la cookie en la esquina inferior izquierda de la página.",
-      "headers": {
-        "name": "Nombre",
-        "domain": "Proveedor",
-        "description": "Propósito"
-      },
+      "analyticsTitle": "Analítica",
+      "closeIconLabel": "Cerrar ajustes",
       "cookies": {
-        "eepyName": "Cookies y almacenamiento requeridos de eepy.page",
         "eepyDesc": "Autenticación, estado de sesión, tokens de prevención de abusos, almacenamiento de preferencias (consentimiento de cookies, tema, avisos descartados y otro comportamiento del sitio)",
-        "sentryName": "Sentry",
-        "sentryDesc": "Monitoreo y registro de errores de frontend, necesario para la depuración y la fiabilidad del servicio",
-        "gaName": "Cookies de Google Analytics",
+        "eepyName": "Cookies y almacenamiento requeridos de eepy.page",
         "gaDesc": "Mide el uso y las estadísticas del sitio web a medida que interactúas con él",
-        "speedInsightsName": "Vercel Speed Insights",
-        "speedInsightsDesc": "Mide el rendimiento del sitio web frontend"
-      }
+        "gaName": "Cookies de Google Analytics",
+        "sentryDesc": "Monitoreo y registro de errores de frontend, necesario para la depuración y la fiabilidad del servicio",
+        "sentryName": "Sentry",
+        "speedInsightsDesc": "Mide el rendimiento del sitio web frontend",
+        "speedInsightsName": "Vercel Speed Insights"
+      },
+      "headers": {
+        "description": "Propósito",
+        "domain": "Proveedor",
+        "name": "Nombre"
+      },
+      "necessaryDesc": "Requeridas para el correcto funcionamiento de eepy.page. No se pueden desactivar.",
+      "necessaryTitle": "Necesarias",
+      "savePreferencesBtn": "Guardar ajustes",
+      "serviceCounterLabel": "servicio|servicios",
+      "settingsDesc": "Puedes cambiar estos ajustes en cualquier momento haciendo clic en el icono de la cookie en la esquina inferior izquierda de la página.",
+      "settingsTitle": "Ajustes de cookies",
+      "title": "Preferencias de cookies"
     }
   },
-  "passwordStrength": {
-    "sentences": {
-      "tooWeak": "Tu contraseña es demasiado débil.",
-      "fair": "Buen comienzo, puede ser más fuerte.",
-      "strong": "Contraseña fuerte.",
-      "veryStrong": "¡Contraseña muy segura!",
-      "unknown": "Vaya, algo salió mal."
-    },
-    "descriptors": {
-      "veryWeak": "Muy débil",
-      "weak": "Débil",
-      "fair": "Aceptable",
-      "strong": "Fuerte",
-      "veryStrong": "Muy fuerte",
-      "unknown": "Desconocido"
-    }
+  "donate": {
+    "alreadyDonated": "Ya he donado",
+    "ariaLabel": "Petición de donación",
+    "description": "eepy.page es un servicio comunitario gratuito. Dependemos de las donaciones para mantener los servidores funcionando y los dominios activos.",
+    "kofi": "Donar en Ko-fi",
+    "remindLater": "Recordármelo más tarde",
+    "title": "Apoya a eepy.page"
   },
-  "actions": {
-    "save": "Guardar",
-    "saving": "Guardando...",
-    "cancel": "Cancelar",
-    "delete": "Eliminar",
-    "deleting": "Eliminando...",
-    "confirm": "Confirmar",
-    "loading": "Cargando...",
-    "copy": "Copiar",
-    "copied": "Copiado",
-    "back": "Atrás",
-    "next": "Siguiente",
-    "close": "Cerrar",
-    "dismiss": "Descartar",
-    "reload": "Recargar página",
-    "goHome": "Ir al inicio",
-    "done": "Hecho"
+  "footer": {
+    "contact": "Contacto",
+    "faq": "Preguntas Frecuentes",
+    "legal": "Legal",
+    "officialDomains": "Dominios Oficiales",
+    "privacy": "Política de Privacidad",
+    "readThis": "esto",
+    "reportText": "Reportar sitios o vulnerabilidades (lee {link} antes de reportar):",
+    "support": "Soporte:",
+    "terms": "Términos del Servicio"
+  },
+  "kofiThanks": {
+    "instructions": "Antes de abrir el enlace, asegúrate de haber iniciado sesión en eepy.page y de estar usando la cuenta correcta. Si tienes algún problema, no dudes en escribirnos a {emailLink}.",
+    "lead": "Revisa la dirección de correo electrónico que utilizaste al pagar. ¡Tu enlace de canje debería llegar allí en breve!",
+    "title": "Gracias por tu pedido"
   },
   "landing": {
-    "hero": {
-      "freeSubdomains": "Subdominios gratuitos,",
-      "madeSimple": "de forma sencilla",
-      "tagline": "Un servicio de subdominios moderno y gratuito para todos: tanto desarrolladores como aficionados o cualquier usuario.",
-      "signUp": "Regístrate ahora",
-      "dashboard": "Ir al panel"
+    "alwaysFree": {
+      "graphicText1": "¡eepy.page es 100 % gratuito!",
+      "graphicText2": "¿Por qué no probarlo?",
+      "graphicText3": "¡Sabemos que te va a gustar!",
+      "paragraph1": "eepy.page siempre será completamente gratuito para cualquiera.",
+      "paragraph2": "Nuestro objetivo es brindar un servicio confiable y conveniente para todos, lo que significa que, tengas o no un dominio propio, ¡eres bienvenido a usar nuestro servicio!",
+      "title": "Siempre gratis"
+    },
+    "claim": {
+      "available": "¡El dominio {domain} está disponible!",
+      "checking": "Comprobando disponibilidad...",
+      "claimBtn": "Reclamar dominio ahora",
+      "desc": "Empecemos por lo básico.",
+      "descHighlight": "¡Prueba un dominio que te gustaría tener!",
+      "placeholderSuffix": ".eepy.page",
+      "taken": "Lamentablemente, {domain} ya está ocupado o no es válido.",
+      "title": "Reclama tu rincón en internet",
+      "tryAnother": "¡Prueba con otro subdominio!"
     },
     "features": {
       "free": "100% gratis",
       "modernUi": "Interfaz moderna",
       "userFriendly": "Fácil de usar"
     },
-    "claim": {
-      "title": "Reclama tu rincón en internet",
-      "desc": "Empecemos por lo básico.",
-      "descHighlight": "¡Prueba un dominio que te gustaría tener!",
-      "placeholderSuffix": ".eepy.page",
-      "checking": "Comprobando disponibilidad...",
-      "available": "¡El dominio {domain} está disponible!",
-      "claimBtn": "Reclamar dominio ahora",
-      "taken": "Lamentablemente, {domain} ya está ocupado o no es válido.",
-      "tryAnother": "¡Prueba con otro subdominio!"
-    },
-    "alwaysFree": {
-      "title": "Siempre gratis",
-      "paragraph1": "eepy.page siempre será completamente gratuito para cualquiera.",
-      "paragraph2": "Nuestro objetivo es brindar un servicio confiable y conveniente para todos, lo que significa que, tengas o no un dominio propio, ¡eres bienvenido a usar nuestro servicio!"
-    },
-    "servicesSupport": {
-      "title": "Soporte para múltiples servicios",
-      "lead": "Dado que tienes control total sobre los registros DNS, ¡la mayoría de los servicios que solo requieren un dominio son compatibles!",
-      "andMore": "...¡y más! Cualquier servicio que requiera un registro DNS estándar y un registro TXT con ámbito de subdominio funcionará."
+    "hero": {
+      "dashboard": "Ir al panel",
+      "freeSubdomains": "Subdominios gratuitos,",
+      "madeSimple": "de forma sencilla",
+      "signUp": "Regístrate ahora",
+      "tagline": "Un servicio de subdominios moderno y gratuito para todos: tanto desarrolladores como aficionados o cualquier usuario."
     },
     "management": {
-      "title": "Gestión independiente de dominios",
       "paragraph1": "Puedes registrar, eliminar y modificar dominios directamente desde nuestro panel, diseñado para ser cómodo e intuitivo.",
       "paragraph2": "No hay necesidad de usar interfaces CLI complejas ni formularios de solicitud, ni tienes que esperar ninguna verificación de dominio.",
-      "paragraph3": "Los registros de subdominios se añaden de forma instantánea a nuestra base de datos y servidores DNS en el segundo en que los registras."
-    },
-    "tunneling": {
-      "title": "Túneles robustos",
-      "paragraph1": "¿Sin reenvío de puertos? ¿Sin IP pública? No te preocupes, eepy.page ofrece una experiencia de túneles fluida que te permite exponer tus servicios locales a internet.",
-      "paragraph2": "Nuestro servicio de túneles funciona con Serveo. Simplemente visita nuestro panel para ver instrucciones sencillas para conectar tus servicios locales a un subdominio de eepy.page."
+      "paragraph3": "Los registros de subdominios se añaden de forma instantánea a nuestra base de datos y servidores DNS en el segundo en que los registras.",
+      "title": "Gestión independiente de dominios"
     },
     "openSource": {
-      "title": "Completamente de código abierto",
+      "backendRepo": "Nuestro backend (PowerPCFan/eepy.page-backend)",
+      "frontendRepo": "Nuestro frontend (PowerPCFan/eepy.page-frontend)",
       "paragraph1": "Tanto nuestro frontend como nuestro backend son completamente de código abierto y reciben contribuciones. Nuestro backend está escrito en Python (FastAPI) y nuestro frontend utiliza SvelteKit.",
       "paragraph2": "Los servidores de nombres autoritativos que ejecutan nuestra infraestructura funcionan con PowerDNS, que también es de código abierto.",
       "reposLead": "Echa un vistazo a nuestros repositorios en GitHub:",
-      "frontendRepo": "Nuestro frontend (PowerPCFan/eepy.page-frontend)",
-      "backendRepo": "Nuestro backend (PowerPCFan/eepy.page-backend)"
+      "title": "Completamente de código abierto"
+    },
+    "servicesSupport": {
+      "andMore": "...¡y más! Cualquier servicio que requiera un registro DNS estándar y un registro TXT con ámbito de subdominio funcionará.",
+      "graphicTitle": "Soporte de servicio",
+      "lead": "Dado que tienes control total sobre los registros DNS, ¡la mayoría de los servicios que solo requieren un dominio son compatibles!",
+      "supportedSocials": "Redes sociales",
+      "title": "Soporte para múltiples servicios",
+      "webHosting": "Alojamiento web"
+    },
+    "tunneling": {
+      "paragraph1": "¿Sin reenvío de puertos? ¿Sin IP pública? No te preocupes, eepy.page ofrece una experiencia de túneles fluida que te permite exponer tus servicios locales a internet.",
+      "paragraph2": "Nuestro servicio de túneles funciona con Serveo. Simplemente visita nuestro panel para ver instrucciones sencillas para conectar tus servicios locales a un subdominio de eepy.page.",
+      "title": "Túneles robustos"
     }
+  },
+  "nav": {
+    "account": "Cuenta",
+    "dashboard": "Panel",
+    "docs": "Documentación",
+    "home": "Inicio",
+    "report": "Reportar",
+    "support": "Soporte",
+    "toggleMenu": "Alternar menú de navegación",
+    "tunneling": "Túneles"
+  },
+  "passwordStrength": {
+    "descriptors": {
+      "fair": "Aceptable",
+      "strong": "Fuerte",
+      "unknown": "Desconocido",
+      "veryStrong": "Muy fuerte",
+      "veryWeak": "Muy débil",
+      "weak": "Débil"
+    },
+    "sentences": {
+      "fair": "Buen comienzo, puede ser más fuerte.",
+      "strong": "Contraseña fuerte.",
+      "tooWeak": "Tu contraseña es demasiado débil.",
+      "unknown": "Vaya, algo salió mal.",
+      "veryStrong": "¡Contraseña muy segura!"
+    }
+  },
+  "theme": {
+    "auto": "Automático",
+    "dark": "Oscuro",
+    "label": "Tema",
+    "light": "Claro (beta)",
+    "name": "Modo de tema"
   }
 }
